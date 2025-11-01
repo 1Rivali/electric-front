@@ -148,7 +148,7 @@ const ProductsHero = () => {
           >
             <Box position="relative">
               <Image
-                src="/src/assets/factory/factory4.webp"
+                src="/assets/factory/factory4.webp"
                 alt="Factory Overview"
                 borderRadius="2xl"
                 boxShadow="2xl"
