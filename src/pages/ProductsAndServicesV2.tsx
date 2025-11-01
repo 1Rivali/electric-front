@@ -154,6 +154,7 @@ const ProductsHero = () => {
                 boxShadow="2xl"
                 w="full"
                 h="400px"
+                loading="lazy"
                 objectFit="cover"
                 fallback={
                   <Center h="400px" bg="whiteAlpha.200" borderRadius="2xl">
