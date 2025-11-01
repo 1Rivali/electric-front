@@ -23,10 +23,11 @@ import ProductsList from "./pages/ProductsList";
 import ProductsListV2 from "./pages/ProductsListV2";
 import ContactUs from "./pages/ContactUs";
 import ContactUsV2 from "./pages/ContactUsV2";
+import { useScrollToTop } from "./hooks/useScrollToTop";
 
 function App() {
   const { isLoading } = useAppLoader();
-
+  useScrollToTop();
   return (
     <>
       <FullScreenLoader isVisible={isLoading} />

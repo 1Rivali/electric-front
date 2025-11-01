@@ -1,8 +1,8 @@
 import axios from "axios";
 import { ReorderImagesRequest, ReorderImagesResponse } from "../types/types";
 
-export const baseURL = "https://electricalways.com/api";
-export const assetsBaseURL = "https://electricalways.com/storage";
+export const baseURL = "https://api.electricalways.com/api";
+export const assetsBaseURL = "https://api.electricalways.com/storage";
 // export const baseURL = "http://localhost:8000/api";
 // export const assetsBaseURL = "http://localhost:8000/storage";
 
